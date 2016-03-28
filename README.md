@@ -1,2 +1,2 @@
-# MontyHallSimulator
+# Monty Hall Simulator
 A simple program to simulate/prove the monty hall problem
