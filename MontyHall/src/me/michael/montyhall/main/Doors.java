@@ -8,14 +8,13 @@ import java.util.Random;
 public class Doors {
 
 	private ArrayList<DoorContent> doors = new ArrayList<DoorContent>();
-	Random r;
+	Random r = new Random();
 	
 	public Doors() {
 		doors.add(DoorContent.GOAT);
 		doors.add(DoorContent.GOAT);
 		doors.add(DoorContent.CAR);
 		
-		r = new Random();
 		this.randomizeContents();
 	}
 	

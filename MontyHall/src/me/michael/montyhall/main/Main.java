@@ -5,7 +5,8 @@ public class Main {
 	static double switchWins = 0, originalWins=0, plays=0;
 	
 	public static void main(String args[]) {
-		for(int i = 1; i<=500; i++) {
+		//Runs 
+		for(int i = 1; i<=1000000; i++) {
 			simulate();
 		}
 		
